@@ -1,1 +1,0 @@
-/home/rens/linorobot2_ws/src/linorobot2/linorobot2_bringup/launch/bringup.launch.py
