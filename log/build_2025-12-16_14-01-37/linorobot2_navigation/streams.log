@@ -1,0 +1,41 @@
+[0.077s] Invoking command in '/home/rens/linorobot2_ws/build/linorobot2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/rens/linorobot2_ws/src/linorobot2/linorobot2_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rens/linorobot2_ws/install/linorobot2_navigation
+[0.196s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.192s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.062s] -- Configuring done (2.9s)
+[3.115s] -- Generating done (0.0s)
+[3.143s] -- Build files have been written to: /home/rens/linorobot2_ws/build/linorobot2_navigation
+[3.178s] Invoked command in '/home/rens/linorobot2_ws/build/linorobot2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/rens/linorobot2_ws/src/linorobot2/linorobot2_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rens/linorobot2_ws/install/linorobot2_navigation
+[3.189s] Invoking command in '/home/rens/linorobot2_ws/build/linorobot2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/rens/linorobot2_ws/build/linorobot2_navigation -- -j4 -l4
+[3.808s] Invoked command in '/home/rens/linorobot2_ws/build/linorobot2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/rens/linorobot2_ws/build/linorobot2_navigation -- -j4 -l4
+[3.809s] Invoking command in '/home/rens/linorobot2_ws/build/linorobot2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/rens/linorobot2_ws/build/linorobot2_navigation
+[3.940s] -- Install configuration: ""
+[3.941s] -- Execute custom install script
+[3.950s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/launch/navigation.launch.py
+[3.953s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/launch/slam.launch.py
+[3.956s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/rviz/linorobot2_navigation.rviz
+[3.958s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/rviz/linorobot2_navigation_minimal.rviz
+[3.958s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/rviz/linorobot2_slam.rviz
+[3.967s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/config/navigation.yaml
+[3.968s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/config/slam.yaml
+[3.971s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/map.pgm
+[3.975s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/map.yaml
+[3.977s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/playground.pgm
+[3.982s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/playground.yaml
+[3.985s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/turtlebot3_world.pgm
+[3.986s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/maps/turtlebot3_world.yaml
+[3.986s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/ament_index/resource_index/package_run_dependencies/linorobot2_navigation
+[3.990s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/ament_index/resource_index/parent_prefix_path/linorobot2_navigation
+[3.992s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/environment/ament_prefix_path.sh
+[3.994s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/environment/ament_prefix_path.dsv
+[4.001s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/environment/path.sh
+[4.002s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/environment/path.dsv
+[4.004s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/local_setup.bash
+[4.009s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/local_setup.sh
+[4.012s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/local_setup.zsh
+[4.013s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/local_setup.dsv
+[4.014s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/package.dsv
+[4.152s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/ament_index/resource_index/packages/linorobot2_navigation
+[4.152s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/cmake/linorobot2_navigationConfig.cmake
+[4.159s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/cmake/linorobot2_navigationConfig-version.cmake
+[4.164s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/package.xml
+[4.196s] Invoked command in '/home/rens/linorobot2_ws/build/linorobot2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/rens/linorobot2_ws/build/linorobot2_navigation

@@ -1,0 +1,68 @@
+[0.081s] Invoking command in '/home/rens/linorobot2_ws/build/linorobot2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rens/linorobot2_ws/install/linorobot2_navigation:/home/rens/linorobot2_ws/install/linorobot2_description:/home/rens/linorobot2_ws/install/linorobot2_base:/home/rens/linorobot2_ws/install/linorobot2:/opt/ros/jazzy /usr/bin/cmake /home/rens/linorobot2_ws/src/linorobot2/linorobot2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rens/linorobot2_ws/install/linorobot2_description
+[0.788s] -- The C compiler identification is GNU 13.3.0
+[1.405s] -- The CXX compiler identification is GNU 13.3.0
+[1.563s] -- Detecting C compiler ABI info
+[2.627s] -- Detecting C compiler ABI info - done
+[2.726s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.727s] -- Detecting C compile features
+[2.734s] -- Detecting C compile features - done
+[2.905s] -- Detecting CXX compiler ABI info
+[4.073s] -- Detecting CXX compiler ABI info - done
+[4.123s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.128s] -- Detecting CXX compile features
+[4.133s] -- Detecting CXX compile features - done
+[4.204s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[5.582s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.067s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.966s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[7.795s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[8.634s] -- Configuring done (8.4s)
+[8.675s] -- Generating done (0.0s)
+[8.697s] -- Build files have been written to: /home/rens/linorobot2_ws/build/linorobot2_description
+[8.730s] Invoked command in '/home/rens/linorobot2_ws/build/linorobot2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rens/linorobot2_ws/install/linorobot2_navigation:/home/rens/linorobot2_ws/install/linorobot2_description:/home/rens/linorobot2_ws/install/linorobot2_base:/home/rens/linorobot2_ws/install/linorobot2:/opt/ros/jazzy /usr/bin/cmake /home/rens/linorobot2_ws/src/linorobot2/linorobot2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rens/linorobot2_ws/install/linorobot2_description
+[8.736s] Invoking command in '/home/rens/linorobot2_ws/build/linorobot2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rens/linorobot2_ws/install/linorobot2_navigation:/home/rens/linorobot2_ws/install/linorobot2_description:/home/rens/linorobot2_ws/install/linorobot2_base:/home/rens/linorobot2_ws/install/linorobot2:/opt/ros/jazzy /usr/bin/cmake --build /home/rens/linorobot2_ws/build/linorobot2_description -- -j4 -l4
+[9.097s] Invoked command in '/home/rens/linorobot2_ws/build/linorobot2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rens/linorobot2_ws/install/linorobot2_navigation:/home/rens/linorobot2_ws/install/linorobot2_description:/home/rens/linorobot2_ws/install/linorobot2_base:/home/rens/linorobot2_ws/install/linorobot2:/opt/ros/jazzy /usr/bin/cmake --build /home/rens/linorobot2_ws/build/linorobot2_description -- -j4 -l4
+[9.104s] Invoking command in '/home/rens/linorobot2_ws/build/linorobot2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rens/linorobot2_ws/install/linorobot2_navigation:/home/rens/linorobot2_ws/install/linorobot2_description:/home/rens/linorobot2_ws/install/linorobot2_base:/home/rens/linorobot2_ws/install/linorobot2:/opt/ros/jazzy /usr/bin/cmake --install /home/rens/linorobot2_ws/build/linorobot2_description
+[9.172s] -- Install configuration: ""
+[9.175s] -- Execute custom install script
+[9.181s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/launch/description.launch.py
+[9.271s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/launch/visualize.launch.py
+[9.351s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/2wd_properties.urdf.xacro
+[9.442s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/4wd_properties.urdf.xacro
+[9.516s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/controllers/diff_drive.urdf.xacro
+[9.592s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/controllers/omni_drive.urdf.xacro
+[9.670s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/controllers/skid_steer.urdf.xacro
+[9.756s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/mecanum_properties.urdf.xacro
+[9.829s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/mech/base.urdf.xacro
+[9.910s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/mech/caster_wheel.urdf.xacro
+[9.982s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/mech/mecanum_wheel.urdf.xacro
+[10.068s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/mech/wheel.urdf.xacro
+[10.137s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/robots/2wd.urdf.xacro
+[10.221s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/robots/4wd.urdf.xacro
+[10.293s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/robots/mecanum.urdf.xacro
+[10.380s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/robots/turtlebot.urdf.xacro
+[10.450s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/robots/vattenkar.urdf.xacro
+[10.537s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/sensors/depth_sensor.urdf.xacro
+[10.612s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/sensors/generic_laser.urdf.xacro
+[10.696s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/sensors/imu.urdf.xacro
+[10.778s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/sensors/laser.urdf.xacro
+[10.864s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/sensors/plugins.urdf.xacro
+[10.949s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/rviz/description.rviz
+[11.029s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/meshes/base.dae
+[11.121s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/meshes/tire.dae
+[11.206s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/ament_index/resource_index/package_run_dependencies/linorobot2_description
+[11.294s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/ament_index/resource_index/parent_prefix_path/linorobot2_description
+[11.374s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/environment/ament_prefix_path.sh
+[11.465s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/environment/ament_prefix_path.dsv
+[11.554s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/environment/path.sh
+[11.632s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/environment/path.dsv
+[11.718s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/local_setup.bash
+[11.787s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/local_setup.sh
+[11.865s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/local_setup.zsh
+[11.948s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/local_setup.dsv
+[12.029s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/package.dsv
+[12.119s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/ament_index/resource_index/packages/linorobot2_description
+[12.196s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/cmake/linorobot2_descriptionConfig.cmake
+[12.283s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/cmake/linorobot2_descriptionConfig-version.cmake
+[12.364s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/package.xml
+[12.466s] Invoked command in '/home/rens/linorobot2_ws/build/linorobot2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rens/linorobot2_ws/install/linorobot2_navigation:/home/rens/linorobot2_ws/install/linorobot2_description:/home/rens/linorobot2_ws/install/linorobot2_base:/home/rens/linorobot2_ws/install/linorobot2:/opt/ros/jazzy /usr/bin/cmake --install /home/rens/linorobot2_ws/build/linorobot2_description

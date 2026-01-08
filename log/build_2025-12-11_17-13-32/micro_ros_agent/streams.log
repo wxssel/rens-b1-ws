@@ -1,0 +1,576 @@
+[0.094s] Invoking command in '/home/rens/linorobot2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/rens/linorobot2_ws/install/micro_ros_msgs:/home/rens/linorobot2_ws/install/sllidar_ros2:/home/rens/linorobot2_ws/install/micro_ros_setup:/home/rens/linorobot2_ws/install/linorobot2_bringup:/home/rens/linorobot2_ws/install/micro_ros_agent:/home/rens/linorobot2_ws/install/drive_base_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rens/linorobot2_ws/install/linorobot2_navigation:/home/rens/linorobot2_ws/install/linorobot2_description:/home/rens/linorobot2_ws/install/linorobot2_base:/home/rens/linorobot2_ws/install/linorobot2:/opt/ros/jazzy LD_LIBRARY_PATH=/home/rens/linorobot2_ws/install/micro_ros_msgs/lib:/home/rens/linorobot2_ws/install/micro_ros_agent/lib:/home/rens/linorobot2_ws/install/drive_base_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake /home/rens/linorobot2_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rens/linorobot2_ws/install/micro_ros_agent
+[0.626s] -- The C compiler identification is GNU 13.3.0
+[0.765s] -- Detecting C compiler ABI info
+[1.690s] -- Detecting C compiler ABI info - done
+[1.770s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.771s] -- Detecting C compile features
+[1.777s] -- Detecting C compile features - done
+[2.161s] -- The CXX compiler identification is GNU 13.3.0
+[2.265s] -- Detecting CXX compiler ABI info
+[3.198s] -- Detecting CXX compiler ABI info - done
+[3.339s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.343s] -- Detecting CXX compile features
+[3.345s] -- Detecting CXX compile features - done
+[3.805s] -- Configuring done (3.6s)
+[3.881s] -- Generating done (0.1s)
+[3.902s] [33mCMake Warning:
+[3.903s]   Manually-specified variables were not used by the project:
+[3.907s] 
+[3.908s]     AMENT_CMAKE_SYMLINK_INSTALL
+[3.909s] 
+[3.913s] [0m
+[3.921s] -- Build files have been written to: /home/rens/linorobot2_ws/build/micro_ros_agent
+[3.947s] Invoked command in '/home/rens/linorobot2_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/rens/linorobot2_ws/install/micro_ros_msgs:/home/rens/linorobot2_ws/install/sllidar_ros2:/home/rens/linorobot2_ws/install/micro_ros_setup:/home/rens/linorobot2_ws/install/linorobot2_bringup:/home/rens/linorobot2_ws/install/micro_ros_agent:/home/rens/linorobot2_ws/install/drive_base_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rens/linorobot2_ws/install/linorobot2_navigation:/home/rens/linorobot2_ws/install/linorobot2_description:/home/rens/linorobot2_ws/install/linorobot2_base:/home/rens/linorobot2_ws/install/linorobot2:/opt/ros/jazzy LD_LIBRARY_PATH=/home/rens/linorobot2_ws/install/micro_ros_msgs/lib:/home/rens/linorobot2_ws/install/micro_ros_agent/lib:/home/rens/linorobot2_ws/install/drive_base_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake /home/rens/linorobot2_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rens/linorobot2_ws/install/micro_ros_agent
+[3.955s] Invoking command in '/home/rens/linorobot2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/rens/linorobot2_ws/install/micro_ros_msgs:/home/rens/linorobot2_ws/install/sllidar_ros2:/home/rens/linorobot2_ws/install/micro_ros_setup:/home/rens/linorobot2_ws/install/linorobot2_bringup:/home/rens/linorobot2_ws/install/micro_ros_agent:/home/rens/linorobot2_ws/install/drive_base_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rens/linorobot2_ws/install/linorobot2_navigation:/home/rens/linorobot2_ws/install/linorobot2_description:/home/rens/linorobot2_ws/install/linorobot2_base:/home/rens/linorobot2_ws/install/linorobot2:/opt/ros/jazzy LD_LIBRARY_PATH=/home/rens/linorobot2_ws/install/micro_ros_msgs/lib:/home/rens/linorobot2_ws/install/micro_ros_agent/lib:/home/rens/linorobot2_ws/install/drive_base_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/rens/linorobot2_ws/build/micro_ros_agent -- -j4 -l4
+[4.453s] [  6%] [34m[1mCreating directories for 'xrceagent'[0m
+[4.702s] [ 12%] [34m[1mPerforming download step (git clone) for 'xrceagent'[0m
+[4.933s] Cloning into 'xrceagent'...
+[9.149s] HEAD is now at 7362281 Release v2.4.3
+[9.743s] [ 18%] [34m[1mPerforming update step for 'xrceagent'[0m
+[9.976s] [ 25%] [34m[1mNo patch step for 'xrceagent'[0m
+[10.249s] [ 31%] [34m[1mPerforming configure step for 'xrceagent'[0m
+[10.318s] loading initial cache file /home/rens/linorobot2_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+[10.716s] -- The C compiler identification is GNU 13.3.0
+[10.849s] -- Detecting C compiler ABI info
+[11.570s] -- Detecting C compiler ABI info - done
+[11.641s] -- Check for working C compiler: /usr/bin/cc - skipped
+[11.642s] -- Detecting C compile features
+[11.646s] -- Detecting C compile features - done
+[12.005s] -- The CXX compiler identification is GNU 13.3.0
+[12.098s] -- Detecting CXX compiler ABI info
+[12.983s] -- Detecting CXX compiler ABI info - done
+[13.032s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[13.035s] -- Detecting CXX compile features
+[13.039s] -- Detecting CXX compile features - done
+[13.463s] -- Configuring done (3.1s)
+[13.495s] -- Generating done (0.0s)
+[13.504s] -- Build files have been written to: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[13.701s] [ 37%] [34m[1mPerforming build step for 'xrceagent'[0m
+[14.152s] [  6%] [34m[1mCreating directories for 'spdlog'[0m
+[14.451s] [ 12%] [34m[1mPerforming download step (git clone) for 'spdlog'[0m
+[14.671s] Cloning into 'spdlog'...
+[28.649s] HEAD is now at eb322062 Bump version to 1.9.2
+[29.062s] [ 18%] [34m[1mPerforming update step for 'spdlog'[0m
+[29.264s] [ 25%] [34m[1mNo patch step for 'spdlog'[0m
+[29.471s] [ 31%] [34m[1mPerforming configure step for 'spdlog'[0m
+[29.551s] loading initial cache file /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp/spdlog-cache-.cmake
+[29.947s] -- The CXX compiler identification is GNU 13.3.0
+[30.067s] -- Detecting CXX compiler ABI info
+[30.822s] -- Detecting CXX compiler ABI info - done
+[30.868s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[30.870s] -- Detecting CXX compile features
+[30.879s] -- Detecting CXX compile features - done
+[30.880s] -- Build spdlog: 1.9.2
+[30.895s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[31.643s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[31.649s] -- Found Threads: TRUE  
+[31.654s] -- Build type: Release
+[31.683s] -- Generating example(s)
+[31.687s] -- Generating install
+[31.734s] -- Configuring done (2.2s)
+[31.789s] -- Generating done (0.0s)
+[31.795s] -- Build files have been written to: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build
+[31.947s] [ 37%] [34m[1mPerforming build step for 'spdlog'[0m
+[32.268s] [ 10%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/spdlog.cpp.o[0m
+[49.386s] [ 20%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/file_sinks.cpp.o[0m
+[51.554s] [ 30%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/color_sinks.cpp.o[0m
+[53.746s] [ 40%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o[0m
+[72.812s] [ 50%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/fmt.cpp.o[0m
+[87.016s] [ 60%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/cfg.cpp.o[0m
+[87.017s] [ 70%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/async.cpp.o[0m
+[92.101s] [ 80%] [32m[1mLinking CXX static library libspdlog.a[0m
+[94.222s] [ 80%] Built target spdlog
+[94.380s] [ 90%] [32mBuilding CXX object example/CMakeFiles/example.dir/example.cpp.o[0m
+[110.740s] [100%] [32m[1mLinking CXX executable example[0m
+[111.257s] [100%] Built target example
+[111.444s] [ 43%] [34m[1mPerforming install step for 'spdlog'[0m
+[111.793s] [ 80%] Built target spdlog
+[111.960s] [100%] Built target example
+[112.089s] [36mInstall the project...[0m
+[112.147s] -- Install configuration: "Release"
+[112.147s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include
+[112.148s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog
+[112.149s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/spdlog-inl.h
+[112.150s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/formatter.h
+[112.151s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async_logger.h
+[112.152s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt
+[112.153s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/fmt.h
+[112.154s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/chrono.h
+[112.155s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/compile.h
+[112.157s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/xchar.h
+[112.158s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bin_to_hex.h
+[112.159s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/ostr.h
+[112.160s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/logger.h
+[112.161s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/common-inl.h
+[112.163s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/version.h
+[112.164s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/stopwatch.h
+[112.165s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter-inl.h
+[112.166s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg
+[112.167s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/env.h
+[112.168s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers.h
+[112.170s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers-inl.h
+[112.171s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/argv.h
+[112.172s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/tweakme.h
+[112.173s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async_logger-inl.h
+[112.174s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async.h
+[112.175s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details
+[112.176s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/null_mutex.h
+[112.178s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer.h
+[112.179s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client-windows.h
+[112.180s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/os-inl.h
+[112.182s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/console_globals.h
+[112.183s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/circular_q.h
+[112.184s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/os.h
+[112.185s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper.h
+[112.186s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool-inl.h
+[112.188s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker.h
+[112.189s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper-inl.h
+[112.190s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool.h
+[112.191s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg-inl.h
+[112.192s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg.h
+[112.194s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker-inl.h
+[112.195s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer.h
+[112.196s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/registry.h
+[112.197s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer-inl.h
+[112.198s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/synchronous_factory.h
+[112.200s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client.h
+[112.201s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/fmt_helper.h
+[112.202s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/mpmc_blocking_q.h
+[112.203s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/windows_include.h
+[112.204s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/registry-inl.h
+[112.206s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer-inl.h
+[112.207s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/spdlog.h
+[112.208s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks
+[112.209s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink.h
+[112.211s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink.h
+[112.212s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/null_sink.h
+[112.213s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/syslog_sink.h
+[112.214s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/win_eventlog_sink.h
+[112.216s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink-inl.h
+[112.217s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink-inl.h
+[112.218s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks.h
+[112.219s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks-inl.h
+[112.221s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/mongo_sink.h
+[112.222s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/dist_sink.h
+[112.223s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink.h
+[112.224s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink-inl.h
+[112.225s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/msvc_sink.h
+[112.227s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink-inl.h
+[112.228s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink.h
+[112.229s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/daily_file_sink.h
+[112.230s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ringbuffer_sink.h
+[112.232s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/tcp_sink.h
+[112.233s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink.h
+[112.234s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks-inl.h
+[112.235s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks.h
+[112.236s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink.h
+[112.238s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/systemd_sink.h
+[112.239s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/qt_sinks.h
+[112.240s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ostream_sink.h
+[112.241s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/android_sink.h
+[112.242s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/dup_filter_sink.h
+[112.243s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink-inl.h
+[112.245s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/hourly_file_sink.h
+[112.246s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink-inl.h
+[112.247s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter.h
+[112.248s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fwd.h
+[112.250s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/common.h
+[112.251s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/logger-inl.h
+[112.253s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/libspdlog.a
+[112.265s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled/
+[112.266s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//args.h
+[112.267s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format.h
+[112.269s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ostream.h
+[112.270s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//printf.h
+[112.271s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//chrono.h
+[112.273s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//locale.h
+[112.274s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//os.h
+[112.275s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//core.h
+[112.277s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//color.h
+[112.279s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//compile.h
+[112.280s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format-inl.h
+[112.282s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ranges.h
+[112.284s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//xchar.h
+[112.285s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/pkgconfig/spdlog.pc
+[112.287s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets.cmake
+[112.289s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+[112.291s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfig.cmake
+[112.292s] -- Installing: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigVersion.cmake
+[112.424s] [ 50%] [34m[1mCompleted 'spdlog'[0m
+[112.663s] [ 50%] Built target spdlog
+[112.815s] [ 56%] [34m[1mCreating directories for 'uagent'[0m
+[112.990s] [ 62%] [34m[1mNo download step for 'uagent'[0m
+[113.164s] [ 68%] [34m[1mNo update step for 'uagent'[0m
+[113.336s] [ 75%] [34m[1mNo patch step for 'uagent'[0m
+[113.508s] [ 81%] [34m[1mPerforming configure step for 'uagent'[0m
+[113.571s] loading initial cache file /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake
+[113.599s] -- Setting build type to 'Release' as none was specified.
+[113.846s] -- Found TinyXML2: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[114.370s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[114.387s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[114.932s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[114.936s] -- Found Threads: TRUE  
+[114.955s] -- Configuring done (1.4s)
+[115.011s] -- Generating done (0.0s)
+[115.016s] -- Build files have been written to: /home/rens/linorobot2_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[115.141s] [ 87%] [34m[1mPerforming build step for 'uagent'[0m
+[115.442s] [  2%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o[0m
+[115.445s] [  4%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o[0m
+[115.448s] [  7%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o[0m
+[115.453s] [  9%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o[0m
+[137.425s] [ 11%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o[0m
+[148.527s] [ 14%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o[0m
+[156.086s] [ 16%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o[0m
+[164.806s] [ 19%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o[0m
+[167.095s] [ 21%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o[0m
+[172.768s] [ 23%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o[0m
+[175.178s] [ 26%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o[0m
+[181.093s] [ 28%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o[0m
+[188.513s] [ 30%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o[0m
+[195.262s] [ 33%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o[0m
+[198.999s] [ 35%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o[0m
+[199.313s] [ 38%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o[0m
+[203.519s] [ 40%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o[0m
+[205.205s] [ 42%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o[0m
+[207.631s] [ 45%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o[0m
+[212.917s] [ 47%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o[0m
+[224.496s] [ 50%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o[0m
+[225.188s] [ 52%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o[0m
+[226.664s] [ 54%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o[0m
+[227.657s] [ 57%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o[0m
+[233.423s] [ 59%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o[0m
+[250.460s] [ 61%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o[0m
+[251.944s] [ 64%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o[0m
+[259.179s] [ 66%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o[0m
+[261.856s] [ 69%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o[0m
+[279.806s] [ 71%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o[0m
+[280.758s] [ 73%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o[0m
+[281.112s] [ 76%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o[0m
+[283.236s] [ 78%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o[0m
+[300.582s] [ 80%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o[0m
+[302.726s] [ 83%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o[0m
+[303.790s] [ 85%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o[0m
+[305.004s] [ 88%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o[0m
+[307.677s] [ 90%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o[0m
+[313.530s] [ 92%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o[0m
+[321.732s] [ 95%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o[0m
+[322.857s] [ 97%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o[0m
+[362.133s] [100%] [32m[1mLinking CXX shared library libmicroxrcedds_agent.so[0m
+[363.589s] [100%] Built target microxrcedds_agent
+[363.776s] [34m[1mNo install step for 'uagent'[0m
+[363.950s] [34m[1mCompleted 'uagent'[0m
+[364.176s] Built target uagent
+[364.360s] [ 43%] [34m[1mPerforming install step for 'xrceagent'[0m
+[365.033s] [100%] Built target microxrcedds_agent
+[365.165s] [36mInstall the project...[0m
+[365.223s] -- Install configuration: "Release"
+[365.224s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.3
+[365.256s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4
+[365.258s] -- Set non-toolchain portion of runtime path of "/home/rens/linorobot2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.3" to ""
+[365.259s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so
+[365.259s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent
+[365.260s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/types
+[365.261s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp
+[365.262s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp
+[365.263s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp
+[365.264s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp
+[365.268s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp
+[365.269s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp
+[365.270s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport
+[365.270s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp
+[365.272s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp
+[365.273s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp
+[365.274s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/custom
+[365.274s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp
+[365.275s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/can
+[365.276s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp
+[365.277s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp
+[365.278s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp
+[365.279s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp
+[365.280s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp
+[365.282s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp
+[365.283s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp
+[365.284s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp
+[365.285s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial
+[365.286s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp
+[365.287s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp
+[365.288s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp
+[365.289s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp
+[365.290s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h
+[365.291s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp
+[365.292s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp
+[365.293s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp
+[365.294s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp
+[365.295s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp
+[365.297s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp
+[365.298s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p
+[365.298s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp
+[365.299s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp
+[365.301s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint
+[365.301s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp
+[365.302s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp
+[365.304s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp
+[365.305s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp
+[365.306s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp
+[365.307s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp
+[365.308s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/util
+[365.309s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp
+[365.310s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp
+[365.311s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing
+[365.312s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp
+[365.313s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery
+[365.314s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp
+[365.315s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp
+[365.316s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp
+[365.317s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/Root.hpp
+[365.318s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/reader
+[365.319s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp
+[365.320s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/middleware
+[365.320s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced
+[365.321s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp
+[365.322s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp
+[365.324s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils
+[365.324s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp
+[365.326s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp
+[365.327s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast
+[365.328s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp
+[365.329s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp
+[365.330s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds
+[365.331s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp
+[365.332s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp
+[365.333s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/participant
+[365.334s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp
+[365.335s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/utils
+[365.335s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp
+[365.337s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp
+[365.337s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp
+[365.339s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp
+[365.340s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp
+[365.341s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp
+[365.342s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp
+[365.343s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp
+[365.344s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp
+[365.345s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/requester
+[365.346s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp
+[365.347s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/client
+[365.347s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/client/session
+[365.348s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream
+[365.349s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp
+[365.350s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp
+[365.351s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp
+[365.352s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp
+[365.353s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp
+[365.354s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp
+[365.355s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/datareader
+[365.356s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp
+[365.357s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/object
+[365.358s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp
+[365.359s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/p2p
+[365.359s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp
+[365.361s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp
+[365.361s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/scheduler
+[365.362s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp
+[365.363s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp
+[365.364s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/processor
+[365.365s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp
+[365.366s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/topic
+[365.367s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp
+[365.368s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/replier
+[365.368s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp
+[365.369s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/subscriber
+[365.370s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp
+[365.371s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/publisher
+[365.372s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp
+[365.373s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/logger
+[365.373s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp
+[365.374s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/datawriter
+[365.375s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp
+[365.376s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/message
+[365.377s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp
+[365.378s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp
+[365.379s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp
+[365.380s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp
+[365.382s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake
+[365.384s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake
+[365.385s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/uxr/agent/config.hpp
+[365.387s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE
+[365.388s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake
+[365.389s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake
+[365.390s] -- Up-to-date: /home/rens/linorobot2_ws/install/micro_ros_agent
+[365.391s] -- Up-to-date: /home/rens/linorobot2_ws/install/micro_ros_agent/lib
+[365.391s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/lib/cmake
+[365.392s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/lib/cmake/spdlog
+[365.393s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfig.cmake
+[365.394s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigTargets.cmake
+[365.396s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+[365.397s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigVersion.cmake
+[365.398s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/lib/pkgconfig
+[365.399s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/lib/pkgconfig/spdlog.pc
+[365.400s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/lib/libspdlog.a
+[365.414s] -- Up-to-date: /home/rens/linorobot2_ws/install/micro_ros_agent/include
+[365.415s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog
+[365.416s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/spdlog-inl.h
+[365.417s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/formatter.h
+[365.418s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/async_logger.h
+[365.419s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/fmt
+[365.420s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/fmt/fmt.h
+[365.421s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/fmt/chrono.h
+[365.422s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/fmt/compile.h
+[365.423s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled
+[365.424s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/args.h
+[365.425s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/format.h
+[365.428s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/ostream.h
+[365.429s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/printf.h
+[365.430s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/chrono.h
+[365.432s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/locale.h
+[365.433s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/os.h
+[365.434s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/core.h
+[365.437s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/color.h
+[365.438s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/compile.h
+[365.439s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/format-inl.h
+[365.442s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/ranges.h
+[365.443s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/xchar.h
+[365.444s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/fmt/xchar.h
+[365.445s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/fmt/bin_to_hex.h
+[365.447s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/fmt/ostr.h
+[365.448s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/logger.h
+[365.449s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/common-inl.h
+[365.450s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/version.h
+[365.451s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/stopwatch.h
+[365.453s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/pattern_formatter-inl.h
+[365.454s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/cfg
+[365.455s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/cfg/env.h
+[365.456s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/cfg/helpers.h
+[365.457s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/cfg/helpers-inl.h
+[365.458s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/cfg/argv.h
+[365.460s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/tweakme.h
+[365.461s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/async_logger-inl.h
+[365.462s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/async.h
+[365.463s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details
+[365.464s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/null_mutex.h
+[365.465s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/log_msg_buffer.h
+[365.466s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/tcp_client-windows.h
+[365.468s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/os-inl.h
+[365.469s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/console_globals.h
+[365.470s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/circular_q.h
+[365.471s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/os.h
+[365.473s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/file_helper.h
+[365.474s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/thread_pool-inl.h
+[365.475s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/periodic_worker.h
+[365.476s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/file_helper-inl.h
+[365.478s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/thread_pool.h
+[365.479s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/log_msg-inl.h
+[365.480s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/log_msg.h
+[365.481s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/periodic_worker-inl.h
+[365.483s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/backtracer.h
+[365.484s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/registry.h
+[365.485s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/log_msg_buffer-inl.h
+[365.486s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/synchronous_factory.h
+[365.488s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/tcp_client.h
+[365.489s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/fmt_helper.h
+[365.490s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/mpmc_blocking_q.h
+[365.491s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/windows_include.h
+[365.492s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/registry-inl.h
+[365.494s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/details/backtracer-inl.h
+[365.495s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/spdlog.h
+[365.496s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks
+[365.497s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/sink.h
+[365.499s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/base_sink.h
+[365.500s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/null_sink.h
+[365.501s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/syslog_sink.h
+[365.502s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/win_eventlog_sink.h
+[365.503s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/ansicolor_sink-inl.h
+[365.505s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/basic_file_sink-inl.h
+[365.506s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_color_sinks.h
+[365.507s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_color_sinks-inl.h
+[365.508s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/mongo_sink.h
+[365.510s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/dist_sink.h
+[365.511s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/basic_file_sink.h
+[365.512s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/sink-inl.h
+[365.513s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/msvc_sink.h
+[365.514s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/base_sink-inl.h
+[365.516s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/rotating_file_sink.h
+[365.517s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/daily_file_sink.h
+[365.518s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/ringbuffer_sink.h
+[365.519s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/tcp_sink.h
+[365.521s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/wincolor_sink.h
+[365.522s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_sinks-inl.h
+[365.523s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_sinks.h
+[365.524s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/ansicolor_sink.h
+[365.526s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/systemd_sink.h
+[365.527s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/qt_sinks.h
+[365.528s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/ostream_sink.h
+[365.529s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/android_sink.h
+[365.530s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/dup_filter_sink.h
+[365.532s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/rotating_file_sink-inl.h
+[365.533s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/hourly_file_sink.h
+[365.534s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/sinks/wincolor_sink-inl.h
+[365.535s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/pattern_formatter.h
+[365.537s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/fwd.h
+[365.538s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/common.h
+[365.539s] -- Installing: /home/rens/linorobot2_ws/install/micro_ros_agent/include/spdlog/logger-inl.h
+[365.671s] [ 50%] [34m[1mCompleted 'xrceagent'[0m
+[365.910s] [ 50%] Built target xrceagent
+[366.065s] [ 56%] [34m[1mCreating directories for 'micro_ros_agent'[0m
+[366.243s] [ 62%] [34m[1mNo download step for 'micro_ros_agent'[0m
+[366.418s] [ 68%] [34m[1mNo update step for 'micro_ros_agent'[0m
+[366.596s] [ 75%] [34m[1mNo patch step for 'micro_ros_agent'[0m
+[366.774s] [ 81%] [34m[1mPerforming configure step for 'micro_ros_agent'[0m
+[366.838s] loading initial cache file /home/rens/linorobot2_ws/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake
+[366.926s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[367.982s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[368.328s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[369.873s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[369.886s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[370.495s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[370.499s] -- Found Threads: TRUE  
+[370.565s] -- Found rosidl_cmake: 4.6.6 (/opt/ros/jazzy/share/rosidl_cmake/cmake)
+[370.626s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[370.728s] -- Found fastrtps_cmake_module: 3.6.2 (/opt/ros/jazzy/share/fastrtps_cmake_module/cmake)
+[370.789s] -- Found rmw_dds_common: 3.1.0 (/opt/ros/jazzy/share/rmw_dds_common/cmake)
+[371.385s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[371.605s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[371.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[371.936s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[372.129s] -- Found rmw_fastrtps_shared_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_shared_cpp/cmake)
+[372.302s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[372.363s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[372.429s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[372.434s] -- Found micro_ros_msgs: 5.0.2 (/home/rens/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)
+[372.922s] -- Configuring done (6.1s)
+[372.985s] -- Generating done (0.0s)
+[373.005s] -- Build files have been written to: /home/rens/linorobot2_ws/build/micro_ros_agent
+[373.144s] [ 87%] [34m[1mPerforming build step for 'micro_ros_agent'[0m
+[373.452s] [ 33%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o[0m
+[373.457s] [ 33%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o[0m
+[373.458s] [ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o[0m
+[373.459s] [ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o[0m
+[387.068s] [ 83%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o[0m
+[396.122s] [100%] [32m[1mLinking CXX executable micro_ros_agent[0m
+[397.702s] [100%] Built target micro_ros_agent
+[397.884s] [34m[1mNo install step for 'micro_ros_agent'[0m
+[398.059s] [34m[1mCompleted 'micro_ros_agent'[0m
+[398.293s] Built target micro_ros_agent
+[398.362s] Invoked command in '/home/rens/linorobot2_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/rens/linorobot2_ws/install/micro_ros_msgs:/home/rens/linorobot2_ws/install/sllidar_ros2:/home/rens/linorobot2_ws/install/micro_ros_setup:/home/rens/linorobot2_ws/install/linorobot2_bringup:/home/rens/linorobot2_ws/install/micro_ros_agent:/home/rens/linorobot2_ws/install/drive_base_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rens/linorobot2_ws/install/linorobot2_navigation:/home/rens/linorobot2_ws/install/linorobot2_description:/home/rens/linorobot2_ws/install/linorobot2_base:/home/rens/linorobot2_ws/install/linorobot2:/opt/ros/jazzy LD_LIBRARY_PATH=/home/rens/linorobot2_ws/install/micro_ros_msgs/lib:/home/rens/linorobot2_ws/install/micro_ros_agent/lib:/home/rens/linorobot2_ws/install/drive_base_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/rens/linorobot2_ws/build/micro_ros_agent -- -j4 -l4
+[398.370s] Invoking command in '/home/rens/linorobot2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/rens/linorobot2_ws/install/micro_ros_msgs:/home/rens/linorobot2_ws/install/sllidar_ros2:/home/rens/linorobot2_ws/install/micro_ros_setup:/home/rens/linorobot2_ws/install/linorobot2_bringup:/home/rens/linorobot2_ws/install/micro_ros_agent:/home/rens/linorobot2_ws/install/drive_base_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rens/linorobot2_ws/install/linorobot2_navigation:/home/rens/linorobot2_ws/install/linorobot2_description:/home/rens/linorobot2_ws/install/linorobot2_base:/home/rens/linorobot2_ws/install/linorobot2:/opt/ros/jazzy LD_LIBRARY_PATH=/home/rens/linorobot2_ws/install/micro_ros_msgs/lib:/home/rens/linorobot2_ws/install/micro_ros_agent/lib:/home/rens/linorobot2_ws/install/drive_base_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/rens/linorobot2_ws/build/micro_ros_agent
+[398.425s] -- Install configuration: ""
+[398.426s] -- Execute custom install script
+[398.428s] -- Symlinking: /home/rens/linorobot2_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[398.491s] -- Symlinking: /home/rens/linorobot2_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[398.555s] -- Symlinking: /home/rens/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[398.619s] -- Symlinking: /home/rens/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[398.683s] -- Symlinking: /home/rens/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[398.745s] -- Symlinking: /home/rens/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[398.807s] -- Symlinking: /home/rens/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[398.871s] -- Symlinking: /home/rens/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[398.934s] -- Symlinking: /home/rens/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[399.009s] -- Symlinking: /home/rens/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[399.076s] -- Symlinking: /home/rens/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[399.140s] -- Symlinking: /home/rens/linorobot2_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[399.204s] -- Symlinking: /home/rens/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[399.269s] -- Symlinking: /home/rens/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[399.332s] -- Symlinking: /home/rens/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[399.396s] -- Symlinking: /home/rens/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[399.462s] -- Symlinking: /home/rens/linorobot2_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[399.524s] -- Symlinking: /home/rens/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[399.596s] Invoked command in '/home/rens/linorobot2_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/rens/linorobot2_ws/install/micro_ros_msgs:/home/rens/linorobot2_ws/install/sllidar_ros2:/home/rens/linorobot2_ws/install/micro_ros_setup:/home/rens/linorobot2_ws/install/linorobot2_bringup:/home/rens/linorobot2_ws/install/micro_ros_agent:/home/rens/linorobot2_ws/install/drive_base_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rens/linorobot2_ws/install/linorobot2_navigation:/home/rens/linorobot2_ws/install/linorobot2_description:/home/rens/linorobot2_ws/install/linorobot2_base:/home/rens/linorobot2_ws/install/linorobot2:/opt/ros/jazzy LD_LIBRARY_PATH=/home/rens/linorobot2_ws/install/micro_ros_msgs/lib:/home/rens/linorobot2_ws/install/micro_ros_agent/lib:/home/rens/linorobot2_ws/install/drive_base_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/rens/linorobot2_ws/build/micro_ros_agent
